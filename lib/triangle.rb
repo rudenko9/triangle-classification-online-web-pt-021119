@@ -8,9 +8,7 @@ class Triangle
 	end
 
 	def kind
-
-		check_errors
-
+	check_errors
 		if @sideA == @sideB && @sideB == @sideC 
 			return :equilateral
 		elsif 
@@ -18,9 +16,7 @@ class Triangle
 			return :scalene
 		else
 			return :isosceles
-
 		end
-
 	end
 
 	def check_errors
